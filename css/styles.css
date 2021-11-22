@@ -6,6 +6,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   text-align: center;
   min-width: 350px;
+  height: 100vh;
   margin: 0;
   color: #202e51;
 }

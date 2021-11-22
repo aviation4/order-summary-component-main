@@ -84,7 +84,7 @@ p {
   justify-content: flex-end;
 }
 
-.plan-picker a:hover {
+.plan-picker a:hover, .plan-picker a:active  {
   color: #766cf1;
   text-decoration: none;
 }
@@ -117,7 +117,7 @@ button {
   transition: background 0.5s;
 }
 
-.button-proceed:hover {
+.button-proceed:hover, .button-proceed:active {
   background: #766cf1;
   cursor: pointer;
 }
@@ -129,7 +129,7 @@ button {
   margin-top: 0.5rem;
 }
 
-.button-cancel:hover {
+.button-cancel:hover, .button-cancel:active {
   color: #202e51;
   cursor: pointer;
 }

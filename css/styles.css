@@ -161,6 +161,10 @@ button {
   html {
     font-size: 13px;
   }
+
+  .content-hero {
+    margin: 2.5rem;
+  }
 }
 
 @media (max-width: 400px){

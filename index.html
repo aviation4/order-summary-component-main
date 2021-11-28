@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!------ Character encoding ------>
+  <meta charset="UTF-8">
+
+
+  <!------ Layout on mobiles ------>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!------ Page title ------>
+  <title>Frontend Mentor | Order summary card</title>
+
+
+  <!------ Page favicon ------>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!------ CSS Stylesheets ------>
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
+
+  <!------ Google Fonts ------>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-
-  <title> Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
 <body>
 
   <main>
+
     <div class="card">
 
+
+      <!------ Hero image ------>
       <img class="img-hero" src="images/illustration-hero.svg" />
 
+
+      <!------ Card content ------>
       <div class="content-hero">
         <h1>Order Summary</h1>
         <p class="content-hero-description">
@@ -30,20 +47,30 @@
           device anywhere you like!
         </p>
 
+
+        <!------ Plan picker card ------>
         <div class="plan-picker">
+
+
+          <!--- Left part: icon + plan info --->
           <div class="plan-picker-left">
 
             <img src="images/icon-music.svg" />
             <div class="plan-picker-description">
+
               <h3>Annual Plan</h3>
               <p>$59.99/year</p>
+
             </div>
 
+
+          <!--- Right part: "Change" button --->
           </div>
             <a href="">Change</a>
-
-
         </div>
+
+
+        <!------ Buttons ------>
 
         <a><button class="button-proceed" type="button" name="button">Proceed to Payment</button></a>
         <a><button class="button-cancel" type="button" name="button">Cancel Order</button></a>
@@ -51,18 +78,8 @@
       </div>
 
     </div>
+
   </main>
-
-  </div>
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
